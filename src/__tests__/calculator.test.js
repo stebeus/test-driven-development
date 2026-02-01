@@ -14,5 +14,5 @@ test('Multiplies two factors', () => {
 });
 
 test('Divides two operands', () => {
-  expect(divide(10 / 5)).toBeCloseTo(2);
+  expect(divide(10 / 5)).toBe(2);
 });
