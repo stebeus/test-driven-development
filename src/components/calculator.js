@@ -4,4 +4,6 @@ const subtract = (minuend, subtrahend) => minuend - subtrahend;
 
 const multiply = (multiplicand, multiplier) => multiplicand * multiplier;
 
-export { add, subtract, multiply };
+const divide = (dividend, divisor) => dividend / divisor;
+
+export { add, subtract, multiply, divide };
