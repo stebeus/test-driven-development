@@ -2,5 +2,8 @@
   "name": "test-driven-development",
   "private": true,
   "version": "0.1.0",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "vitest": "^4.0.18"
+  }
 }
