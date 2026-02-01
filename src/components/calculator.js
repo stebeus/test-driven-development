@@ -1,3 +1,5 @@
 const add = (addendOne, addendTwo) => addendOne + addendTwo;
 
-export { add };
+const subtract = (minuend, subtrahend) => minuend - subtrahend;
+
+export { add, subtract };
