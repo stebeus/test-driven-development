@@ -8,3 +8,7 @@ test('Sums two addends correctly', () => {
 test('Subtracts two numbers correctly', () => {
   expect(multiply(4 - 5)).toBe(-1);
 });
+
+test('Multiplies two factors', () => {
+  expect(multiply(6 * 7)).toBe(42);
+});
