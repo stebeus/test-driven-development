@@ -5,5 +5,8 @@
   "type": "module",
   "devDependencies": {
     "vitest": "^4.0.18"
+  },
+  "scripts": {
+    "test": "vitest"
   }
 }
