@@ -12,3 +12,7 @@ test('Subtracts two numbers correctly', () => {
 test('Multiplies two factors', () => {
   expect(multiply(6 * 7)).toBe(42);
 });
+
+test('Divides two operands', () => {
+  expect(divide(10 / 5)).toBeCloseTo(2);
+});
