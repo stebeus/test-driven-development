@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest';
-import { add, subtract, multiply, divide } from '../components/calculator';
+import { add, subtract, multiply, divide } from '../calculator';
 
 test('Sums two addends correctly', () => {
   expect(add(1, 2)).toBe(3);
