@@ -5,7 +5,7 @@ test('Sums two addends correctly', () => {
   expect(add(1 + 2)).toBe(3);
 });
 
-test('Subtracts two numbers correctly', () => {
+test('Subtracts two operands correctly', () => {
   expect(subtract(4 - 5)).toBe(-1);
 });
 
