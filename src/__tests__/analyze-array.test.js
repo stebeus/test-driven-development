@@ -1,20 +1,11 @@
 import { expect, test } from 'vitest';
 import { analyzeArray } from '../analyze-array';
 
-const object = [1, 8, 3, 4, 2, 6];
-
-test('Returns the arithmetic mean', () => {
-  expect(analyzeArray(object)).toBe(4);
-});
-
-test('Returns the smallest number', () => {
-  expect(analyzeArray(object)).toBe(1);
-});
-
-test('Returns the largest number', () => {
-  expect(analyzeArray(object)).toBe(8);
-});
-
-test('Returns the array length', () => {
-  expect(analyzeArray(object)).toBe(6);
+test('Returns an object with the average, maximum, minimum and array length properties', () => {
+  expect(analyzeArray([1, 8, 3, 4, 2, 6])).toEqual({
+    average: 4,
+    minimum: 1,
+    maximum: 8,
+    length: 6,
+  });
 });
