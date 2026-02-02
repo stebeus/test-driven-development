@@ -19,3 +19,7 @@ test('Returns the smallest number', () => {
 test('Returns the largest number', () => {
   expect(analyzeArray(object)).toBe(8);
 });
+
+test('Returns the array length', () => {
+  expect(analyzeArray(object)).toBe(6);
+});
