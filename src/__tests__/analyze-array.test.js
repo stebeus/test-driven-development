@@ -7,3 +7,7 @@ const object = {
   max: 8,
   length: 6,
 };
+
+test('Returns the arithmetic mean', () => {
+  expect(analyzeArray(object)).toBe(4);
+});
