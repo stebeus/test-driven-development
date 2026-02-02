@@ -13,6 +13,6 @@ test('Shifts uppercase alphabetic characters by three letters', () => {
   expect(caesarCypher('XYZ', 3)).toBe('ABC');
 });
 
-test('Preserves the original capitalization and non-alphabetic characters', () => {
+test('Preserves the original capitalization and the non-alphabetic characters', () => {
   expect(caesarCypher('Hello, World!', 3)).toBe('Khoor, Zruog!');
 });
