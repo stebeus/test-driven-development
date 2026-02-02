@@ -10,7 +10,7 @@ test('Shifts lowercase alphabetic characters by three letters', () => {
 });
 
 test('Shifts uppercase alphabetic characters by three letters', () => {
-  expect(caesarCypher('XYZ', 3)).toBe('abc');
+  expect(caesarCypher('XYZ', 3)).toBe('ABC');
 });
 
 test('Preserves the original capitalization and non-alphabetic characters', () => {
