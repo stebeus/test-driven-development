@@ -11,3 +11,7 @@ const object = {
 test('Returns the arithmetic mean', () => {
   expect(analyzeArray(object)).toBe(4);
 });
+
+test('Returns the smallest number', () => {
+  expect(analyzeArray(object)).toBe(1);
+});
