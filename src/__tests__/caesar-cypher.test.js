@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest';
-import { caesarCypher } from '../caesarCypher';
+import { caesarCypher } from '../caesar-cypher';
 
 test('Shifts alphabetic characters by one letter', () => {
   expect(caesarCypher('abc', 1)).toBe('bcd');
