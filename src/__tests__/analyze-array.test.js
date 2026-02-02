@@ -15,3 +15,7 @@ test('Returns the arithmetic mean', () => {
 test('Returns the smallest number', () => {
   expect(analyzeArray(object)).toBe(1);
 });
+
+test('Returns the largest number', () => {
+  expect(analyzeArray(object)).toBe(8);
+});
